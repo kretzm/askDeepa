@@ -21,9 +21,8 @@ scotchApp.config(function($routeProvider) {
 
 // create the controller and inject Angular's $scope
 scotchApp.controller('mainController', function($scope) {
-    // create a message to display in our view
-    $scope.message = 'Everyone come and see how good I look!';
 
+    // send in the input to the user to see if it matches
     $scope.custom = function(output) {
         $scope.output = deepaAnswer(output);
     }
@@ -31,9 +30,11 @@ scotchApp.controller('mainController', function($scope) {
 
 
 
-
+// find matches based on user input
 function deepaAnswer(input) {
-    var response = "";
+    var response = '';
+
+    // library of quotes
     var dictionary = {
         'quotes': [
             { 
@@ -47,15 +48,19 @@ function deepaAnswer(input) {
         ]        
     };
 
+    // sort through the dictionary to find the match
     $.each(dictionary.quotes, function(i, v) {
-        if (v.match == input) {
+
+        // match is found
+        if (input.indexOf(v.match) > -1) {
             response = v.quote;
             return false;
         }
         else {
-            response = "none";
+            response = 'no match';
         }
     });
 
+    // return the matched quote
     return response;
 }
