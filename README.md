@@ -1,4 +1,4 @@
-sass-framework
+askDeepa AngularJS App
 ==============
 
-Generic SASS framework template
+
