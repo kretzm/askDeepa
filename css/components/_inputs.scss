@@ -7,15 +7,61 @@
  * Styling for all the different input types and elements
  */
 
+//---------- Resets ---------
 
+::-webkit-input-placeholder {
+   color: #555;
+}
+:-moz-placeholder { /* Firefox 18- */
+   color: #555;  
+}
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #555;  
+}
+:-ms-input-placeholder {  
+   color: #555;  
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
 
 
 
 //---------- Text Inputs ---------
 
+input {
+    float: left;
+    border: 2px solid #333;
+    padding: 15px;
+    font-size: 20px;
+    color: #999;
+    background: #222;
+    border-radius: 5px;
+    height: 60px;
+    line-height: 60px;
+
+    width: calc(100% - 200px);
+    margin-right: 20px;
+}
 
 
+//---------- Buttons ---------
 
+.AD-button {
+    float: left;
+    width: 140px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: $white;
+    border-radius: 5px;
+    background: #17b784;
+    font-size: 18px;
+    text-decoration: none;
+}
 
 
 

@@ -18,7 +18,8 @@
 //---------- Document-wide Typeface ---------
 
 body {
-    font-family: helvetica, arial, sans-serif;
+    font-family: "lato", helvetica, arial, sans-serif;
+    font-weight: 300;
 }
 
 
@@ -28,7 +29,8 @@ body {
 //---------- Headers ---------
 
 h1 {
-    font-size: 40px;
+    font-size: 60px;
+    margin-bottom: 20px;
 }
 h2 {
     font-size: 30px;

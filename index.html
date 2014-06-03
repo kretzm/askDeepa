@@ -4,11 +4,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Nascent Toolkit">
-    <title>askDeepa</title>
+    <meta name="description" content="As a question to our beloved co-worked, Deepa.">
+    <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    <title>As a question to our beloved co-worked, Deepa.</title>
 
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" />
+    <link href="//fonts.googleapis.com/css?family=Lato:100italic,100,300italic,300,400italic,400,700italic,700,900italic,900" rel="stylesheet" type="text/css">
 
     <link rel="stylesheet" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js"></script>
@@ -18,14 +18,32 @@
 </head>
 
 <!-- define angular controller -->
-<body>
-    <div ng-controller="mainController">
-        <div class="wrapper" ng-view>
-        
+<body ng-controller="mainController">
+    <div class="wrapper animated-slow fadeIn" ng-if="!output">
+        <div class="container text-center">
+            <div class="content">
+                <h1>Ask Deepa. She knows all.</h1>
+                <div class="input">
+                    <input ng-model="customInput" placeholder="enter some text"/>
+                    <a class="AD-button" href="" ng-click="custom(customInput)">Ask Away</a>
+                </div>                
+            </div>        
+        </div>    
+    </div>
+    <div class="wrapper response" ng-if="output">
+        <div id="gradient2"></div>
+        <div id="gradient"></div>
+        <div class="response-content">
+            <div class="container text-center">
+                <div class="content">
+                    <h1>{{ output }}</h1>              
+                </div>
+                <div class="try-again">
+                    <a href="" ng-click="reset()">Try again</a> 
+                </div>                   
+            </div> 
         </div>
     </div>
-    
-
   
 </body>
 </html>

@@ -17,7 +17,8 @@
 //---------- Structural HTML Tags ---------
 
 body {
-    background: $white;
+    background: #222;
+    color: $white;
 }
 header, section, footer {
     @extend .transition;
@@ -36,7 +37,70 @@ header, section, footer {
     max-width: 1000px;
     padding: 0 20px;
     margin: 0 auto;
+    z-index: 40;
+}
+.content {
+    margin-top: 200px;
+}
+.response {
+    float: left;
+    width: 100%;
+    text-align: center;
+
+    h1 {
+        color: $white;
+        z-index: 15;
+    }
+}
+.response-content {
+    position: absolute;
+    z-index: 40;
+    width: 100%;
 }
 
+
+
+
+//---------- Page specific Classes ---------
+
+.try-again {
+    float: left;
+    width: 100%;
+    margin-top: 200px;
+    text-align: center;
+    z-index: 15;
+
+    a {
+        color: #FFF;
+        text-decoration: none;
+        padding-bottom: 10px;
+        opacity: 0.3;
+
+        &:hover {
+            border-bottom: 2px solid #FFF;
+        }
+    }
+}
+
+
+
+
+
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    -moz-animation-name: fadeIn;
+    -o-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+.animated-slow {
+    -webkit-animation-duration: 3s;
+    -moz-animation-duration: 3s;
+    -o-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
 
 
