@@ -84,7 +84,7 @@ function deepaAnswer(input) {
 $(document).ready(function() {
 
   //show hint text
-  $(".hint-text").on("click", function() {
+  $(".ng-scope").on("click", ".hint-text", function() {
     $(".hint-content").fadeIn(600);
   });
 
