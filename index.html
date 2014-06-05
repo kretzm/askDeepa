@@ -23,20 +23,26 @@
     <div class="wrapper animated-slow fadeIn" ng-if="!output">
         <div class="container text-center">
             <div class="content">
-                <h1>Ask Deepa. She knows all.</h1>
+                <h1><span class="no-wrap">Ask Deepa.</span> <span class="no-wrap">She knows all.</span></h1>
                 <div class="input">
                     <input ng-model="customInput" placeholder='ex. "Can I go home now?" or "Do I really have to?"'/>
                     <a class="AD-button" href="" ng-click="custom(customInput)">Ask Away</a>
-                </div>  
+                </div>
+                <div class="description">
+                    <p>Our beloved Director of Operations, Deepa, is leaving on maternity leave. In her absence, you can address all your questions to her here</p>
+                </div>
                 <div class="hint">
-                    <a class="hint-text" href="" ng-click="toggleHint()">Need a hint</a>
+                    <a class="hint-text" href="" ng-click="toggleHint()">Need a hint?</a>
                     <ul class="hint-content" ng-if="hintVisible">
                         <h3>Try a phrase with these keywords</h3>
                         <li>"bathroom"</li>
                         <li>"home"</li>
                         <li>"have to"</li>
                         <li>"problem"</li>
-                        <li>"ed"</li>
+                        <li>"issue"</li>
+                        <li>"vacation"</li>
+                        <li>"bug"</li>
+                        <li>"Mike"</li>
                     </ul>
                 </div>              
             </div>        

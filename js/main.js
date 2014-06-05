@@ -51,7 +51,10 @@ function deepaAnswer(input) {
             'bathroom': 'Fine.',
             'have to': 'Child, stop your complaining. Yes.',
             'problem': 'Do I really have to deal with this?',
-            'issue': "Talk to Ed."
+            'issue': "Talk to Ed.",
+            'vacation': "GET OUTTA HERE!",
+            'bug': "What is wrong with you.",
+            'mike': "Mike is the coolest person in the world!"
         }       
     };
 

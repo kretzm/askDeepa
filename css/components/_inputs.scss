@@ -28,7 +28,17 @@ button:focus {
     outline: none;
 }
 
+.input {
+    float: left;
+    width: 100%;
 
+    @include media-query(mobile) {
+        input, .AD-button {
+            width: 100%;
+            margin-bottom: 15px;
+        }
+    }
+}
 
 //---------- Text Inputs ---------
 
