@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.10/angular-route.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular-animate.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/main.js"></script>
 </head>
@@ -28,8 +29,8 @@
                     <a class="AD-button" href="" ng-click="custom(customInput)">Ask Away</a>
                 </div>  
                 <div class="hint">
-                    <a href="" class="hint-text">Need a hint</a>
-                    <ul class="hint-content">
+                    <a class="hint-text" href="" ng-click="toggleHint()">Need a hint</a>
+                    <ul class="hint-content" ng-if="hintVisible">
                         <h3>Try a phrase with these keywords</h3>
                         <li>"bathroom"</li>
                         <li>"home"</li>
@@ -41,7 +42,7 @@
             </div>        
         </div>    
     </div>
-    <div class="wrapper response" ng-if="output">
+    <div class="wrapper response" style="background-image: url({{randBackground}});" ng-if="output">
         <div class="modal"></div>
         <div class="response-content">
             <div class="container text-center">

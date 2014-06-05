@@ -3,7 +3,7 @@
 //---------- Angular Goodness ---------
 
 // create the module and name it scotchApp
-var scotchApp = angular.module('scotchApp', ['ngRoute']);
+var scotchApp = angular.module('scotchApp', ['ngRoute', 'ngAnimate']);
 
 // configure our routes
 scotchApp.config(function($routeProvider) {
@@ -16,10 +16,18 @@ scotchApp.config(function($routeProvider) {
 // create the controller and inject Angular's $scope
 scotchApp.controller('mainController', function($scope) {
 
+    // define model properties
+    $scope.hintVisible = false;
+    $scope.randBackground = randBackground();
+
     // send in the input to the user to see if it matches
     $scope.custom = function(output) {
         $scope.output = deepaAnswer(output);
         $scope.randBackground = randBackground();
+    };
+    $scope.toggleHint = function()
+    {
+        $scope.hintVisible = !$scope.hintVisible;
     };
     $scope.reset = function()
     {
@@ -84,9 +92,9 @@ function deepaAnswer(input) {
 $(document).ready(function() {
 
   //show hint text
-  $(".ng-scope").on("click", ".hint-text", function() {
-    $(".hint-content").fadeIn(600);
-  });
+  //$(".ng-scope").on("click", ".hint-text", function() {
+  //  $(".hint-content").fadeIn(600);
+  //});
 
   randBackground();
 });
@@ -96,8 +104,10 @@ function randBackground() {
   var rand = Math.floor((Math.random() * 4) + 1);
 
   //randomize the background
-  console.log($(".modal").length);
-  $(".response").css("background", "url(/images/deepa-bg-" + rand + ".jpg");
+  //console.log($(".modal").length);
+  //$(".response").css("background", "url(/images/deepa-bg-" + rand + ".jpg");
   console.log(rand);
+
+  return "/images/deepa-bg-" + rand + ".jpg";
 }
 
