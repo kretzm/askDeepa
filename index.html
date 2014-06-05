@@ -24,22 +24,37 @@
             <div class="content">
                 <h1>Ask Deepa. She knows all.</h1>
                 <div class="input">
-                    <input ng-model="customInput" placeholder="enter some text"/>
+                    <input ng-model="customInput" placeholder='ex. "Can I go home now?" or "Do I really have to?"'/>
                     <a class="AD-button" href="" ng-click="custom(customInput)">Ask Away</a>
-                </div>                
+                </div>  
+                <div class="hint">
+                    <a href="" class="hint-text">Need a hint</a>
+                    <ul class="hint-content">
+                        <h3>Try a phrase with these keywords</h3>
+                        <li>"bathroom"</li>
+                        <li>"home"</li>
+                        <li>"have to"</li>
+                        <li>"problem"</li>
+                        <li>"ed"</li>
+                    </ul>
+                </div>              
             </div>        
         </div>    
     </div>
     <div class="wrapper response" ng-if="output">
-        <div id="gradient2"></div>
-        <div id="gradient"></div>
+        <div class="modal"></div>
         <div class="response-content">
             <div class="container text-center">
                 <div class="content">
                     <h1>{{ output }}</h1>              
+
+                    <div class="deepa-figure">
+                        <div class="deepa-face"><img src="/images/deepa-face-1.png"></div>
+                        <div class="deepa-body"><img src="/images/deepa-1.png"></div>
+                    </div>
                 </div>
                 <div class="try-again">
-                    <a href="" ng-click="reset()">Try again</a> 
+                    <a href="" ng-click="reset()">Another Question?</a> 
                 </div>                   
             </div> 
         </div>

@@ -12,7 +12,6 @@
  * Because browsers have defaults and they suck, so let's bring it all back to 0
  * Eric Meyers Reset + some box-sizing magic
  */
-/* line 26, base/_reset.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -31,50 +30,35 @@ time, mark, audio, video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline;
-}
+  vertical-align: baseline; }
 
 /* HTML5 display-role reset for older browsers */
-/* line 36, base/_reset.scss */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-  display: block;
-}
+  display: block; }
 
-/* line 39, base/_reset.scss */
 body {
-  line-height: 1;
-}
+  line-height: 1; }
 
-/* line 42, base/_reset.scss */
 ol, ul {
-  list-style: none;
-}
+  list-style: none; }
 
-/* line 45, base/_reset.scss */
 blockquote, q {
-  quotes: none;
-}
+  quotes: none; }
 
-/* line 49, base/_reset.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
-  content: none;
-}
+  content: none; }
 
-/* line 53, base/_reset.scss */
 table {
   border-collapse: collapse;
-  border-spacing: 0;
-}
+  border-spacing: 0; }
 
-/* line 59, base/_reset.scss */
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 /*------------------------------------*\
     Brand styles
@@ -103,33 +87,23 @@ table {
  * Headers
  * Set rem font size + px fallback
  */
-/* line 20, base/_typography.scss */
 body {
   font-family: "lato", helvetica, arial, sans-serif;
-  font-weight: 300;
-}
+  font-weight: 300; }
 
-/* line 31, base/_typography.scss */
 h1 {
   font-size: 60px;
-  margin-bottom: 20px;
-}
+  margin-bottom: 20px; }
 
-/* line 35, base/_typography.scss */
 h2 {
-  font-size: 30px;
-}
+  font-size: 30px; }
 
-/* line 38, base/_typography.scss */
 h3 {
   font-size: 21px;
-  margin-bottom: 10px;
-}
+  margin-bottom: 10px; }
 
-/* line 42, base/_typography.scss */
 h4 {
-  font-size: 18px;
-}
+  font-size: 18px; }
 
 /*------------------------------------*\
     Helper Classes/Mixins
@@ -142,53 +116,37 @@ h4 {
  * Positioning/Alignment/Visibility
  * Transitions
  */
-/* line 33, base/_helper.scss */
 .border-radius {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
-  border-radius: 3px;
-}
+  border-radius: 3px; }
 
-/* line 62, base/_helper.scss */
 .centered {
-  text-align: center;
-}
+  text-align: center; }
 
-/* line 65, base/_helper.scss */
 .upper {
-  text-transform: uppercase;
-}
+  text-transform: uppercase; }
 
-/* line 68, base/_helper.scss */
 .pull-right {
-  float: right;
-}
+  float: right; }
 
-/* line 71, base/_helper.scss */
 .hidden {
   display: none;
-  opacity: 0;
-}
+  opacity: 0; }
 
-/* line 75, base/_helper.scss */
 .visible {
   display: block;
-  opacity: 1;
-}
+  opacity: 1; }
 
-/* line 79, base/_helper.scss */
 .word-wrap {
   white-space: pre-wrap;
   white-space: -moz-pre-wrap;
   white-space: -pre-wrap;
   white-space: -o-pre-wrap;
-  word-wrap: break-word;
-}
+  word-wrap: break-word; }
 
-/* line 103, base/_helper.scss */
 .transition, header, section, footer {
-  transition: all .3s;
-}
+  transition: all .3s; }
 
 /*------------------------------------*\
     Input Elements
@@ -196,37 +154,26 @@ h4 {
 /*
  * Styling for all the different input types and elements
  */
-/* line 12, components/_inputs.scss */
 ::-webkit-input-placeholder {
-  color: #555;
-}
+  color: #555; }
 
-/* line 15, components/_inputs.scss */
 :-moz-placeholder {
   /* Firefox 18- */
-  color: #555;
-}
+  color: #555; }
 
-/* line 18, components/_inputs.scss */
 ::-moz-placeholder {
   /* Firefox 19+ */
-  color: #555;
-}
+  color: #555; }
 
-/* line 21, components/_inputs.scss */
 :-ms-input-placeholder {
-  color: #555;
-}
+  color: #555; }
 
-/* line 27, components/_inputs.scss */
 input:focus,
 select:focus,
 textarea:focus,
 button:focus {
-  outline: none;
-}
+  outline: none; }
 
-/* line 35, components/_inputs.scss */
 input {
   float: left;
   border: 2px solid #333;
@@ -238,10 +185,8 @@ input {
   height: 60px;
   line-height: 60px;
   width: calc(100% - 200px);
-  margin-right: 20px;
-}
+  margin-right: 20px; }
 
-/* line 53, components/_inputs.scss */
 .AD-button {
   float: left;
   width: 140px;
@@ -252,27 +197,21 @@ input {
   border-radius: 5px;
   background: #17b784;
   font-size: 18px;
-  text-decoration: none;
-}
+  text-decoration: none; }
 
-/* line 1, components/_gradientBG.scss */
 body {
   background-color: #0e0438;
   padding: 0px;
-  margin: 0px;
-}
+  margin: 0px; }
 
-/* line 7, components/_gradientBG.scss */
 #gradient {
   position: absolute;
   width: 100%;
   height: 100%;
   padding: 0px;
   margin: 0px;
-  z-index: 10;
-}
+  z-index: 10; }
 
-/* line 16, components/_gradientBG.scss */
 #gradient2 {
   position: absolute;
   width: 100%;
@@ -280,8 +219,7 @@ body {
   padding: 0px;
   margin: 0px;
   z-index: 3;
-  background-image: -webkit-radial-gradient(80% 10%, circle, #1bba87, transparent), -webkit-radial-gradient(80% 50%, circle, #3aa4b2, transparent), -webkit-radial-gradient(20% 80%, 40em 40em, #0e0438, transparent), -webkit-radial-gradient(10% 10%, circle, #44f2d7, transparent);
-}
+  background-image: -webkit-radial-gradient(80% 10%, circle, #1bba87, transparent), -webkit-radial-gradient(80% 50%, circle, #3aa4b2, transparent), -webkit-radial-gradient(20% 80%, 40em 40em, #0e0438, transparent), -webkit-radial-gradient(10% 10%, circle, #44f2d7, transparent); }
 
 /*------------------------------------*\
     Structure
@@ -292,89 +230,164 @@ body {
  * Structural HTML Tags
  * Structure Classes
  */
-/* line 19, layout/_structure.scss */
 body {
   background: #222;
-  color: white;
-}
+  color: white; }
 
-/* line 23, layout/_structure.scss */
 header, section, footer {
   float: left;
-  width: 100%;
-}
+  width: 100%; }
 
-/* line 36, layout/_structure.scss */
 .container {
   max-width: 1000px;
   padding: 0 20px;
   margin: 0 auto;
-  z-index: 40;
-}
+  z-index: 40; }
 
-/* line 42, layout/_structure.scss */
 .content {
-  margin-top: 200px;
-}
+  margin-top: 200px; }
 
-/* line 45, layout/_structure.scss */
 .response {
-  float: left;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
   width: 100%;
   text-align: center;
-}
-/* line 50, layout/_structure.scss */
-.response h1 {
-  color: white;
-  z-index: 15;
-}
+  background: url(/images/deepa-bg-1.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed; }
+  .response h1 {
+    color: white;
+    font-weight: 700; }
 
-/* line 55, layout/_structure.scss */
 .response-content {
   position: absolute;
   z-index: 40;
-  width: 100%;
-}
+  width: 100%; }
 
-/* line 66, layout/_structure.scss */
+.modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed; }
+
 .try-again {
   float: left;
   width: 100%;
-  margin-top: 200px;
   text-align: center;
-  z-index: 15;
-}
-/* line 73, layout/_structure.scss */
-.try-again a {
-  color: #FFF;
-  text-decoration: none;
-  padding-bottom: 10px;
-  opacity: 0.3;
-}
-/* line 79, layout/_structure.scss */
-.try-again a:hover {
-  border-bottom: 2px solid #FFF;
-}
+  z-index: 15; }
+  .try-again a {
+    color: #FFF;
+    text-decoration: none;
+    padding-bottom: 10px;
+    opacity: 0.3; }
+    .try-again a:hover {
+      border-bottom: 2px solid #FFF; }
 
-/* line 89, layout/_structure.scss */
-.fadeIn {
-  -webkit-animation-name: fadeIn;
-  -moz-animation-name: fadeIn;
-  -o-animation-name: fadeIn;
-  animation-name: fadeIn;
-}
+.deepa-figure {
+  position: relative;
+  width: 220px;
+  text-align: center;
+  margin: 60px auto 100px;
+  height: 300px; }
+  .deepa-figure .deepa-face, .deepa-figure .deepa-body {
+    position: absolute;
+    top: 0;
+    left: 0; }
+  .deepa-figure .deepa-body img {
+    max-width: 90%;
+    margin-top: 10px; }
+  .deepa-figure .deepa-face {
+    z-index: 2; }
 
-/* line 95, layout/_structure.scss */
-.animated-slow {
-  -webkit-animation-duration: 3s;
-  -moz-animation-duration: 3s;
-  -o-animation-duration: 3s;
-  animation-duration: 3s;
-  -webkit-animation-fill-mode: both;
-  -moz-animation-fill-mode: both;
-  -o-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
+.hint {
+  float: left;
+  width: 100%;
+  margin-top: 200px;
+  color: #333;
+  text-align: center; }
+  .hint a {
+    color: inherit;
+    text-decoration: none;
+    padding-bottom: 10px; }
+    .hint a:hover {
+      border-bottom: 2px solid #333; }
+  .hint .hint-content {
+    display: none;
+    margin-top: 40px;
+    color: #444; }
+    .hint .hint-content li {
+      margin-bottom: 5px; }
+
+@-webkit-keyframes jiggle {
+  25% {
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    transform: rotate(-5deg); }
+
+  75% {
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    transform: rotate(5deg); } }
+
+@-moz-keyframes jiggle {
+  25% {
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    transform: rotate(-5deg); }
+
+  75% {
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    transform: rotate(5deg); } }
+
+@-ms-keyframes jiggle {
+  25% {
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    transform: rotate(-5deg); }
+
+  75% {
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    transform: rotate(5deg); } }
+
+@keyframes jiggle {
+  25% {
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    transform: rotate(-5deg); }
+
+  75% {
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    transform: rotate(5deg); } }
+
+.jiggle, .deepa-figure .deepa-face {
+  -webkit-animation: jiggle 0.4s infinite;
+  -moz-animation: jiggle 0.4s infinite;
+  -ms-animation: jiggle 0.4s infinite;
+  animation: jiggle 0.4s infinite; }
 
 /*------------------------------------*\
     Header
@@ -382,12 +395,10 @@ header, section, footer {
 /*
  * Head and shoulders, knees and toes, knees and toes, knees and toes
  */
-/* line 11, sections/_header.scss */
 header {
   height: 60px;
   background: white;
-  border-bottom: 1px solid #333333;
-}
+  border-bottom: 1px solid #333333; }
 
 /*------------------------------------*\
     Footer

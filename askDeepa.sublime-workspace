@@ -1,0 +1,848 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"font-s",
+				"font-style"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"tran",
+				"transition"
+			],
+			[
+				"animate",
+				"animateBanner"
+			],
+			[
+				"rel",
+				"relative"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"respon",
+				"responsiveSlides"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"under",
+				"underline"
+			],
+			[
+				"let",
+				"letter-spacing"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"abo",
+				"absolute"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"content",
+				"contentRightBar"
+			],
+			[
+				"worksh",
+				"workshopInfo"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"fv",
+				"fav-button"
+			],
+			[
+				"share-",
+				"share-article"
+			],
+			[
+				"fav",
+				"fav-button"
+			],
+			[
+				"vertic",
+				"vertical-align"
+			],
+			[
+				"Per",
+				"Percentile_Score"
+			],
+			[
+				"mainSlide",
+				"mainSlideContainer"
+			],
+			[
+				"data",
+				"dataType"
+			],
+			[
+				"type",
+				"typeof"
+			],
+			[
+				"sear",
+				"searchInstagram"
+			],
+			[
+				"Twenty",
+				"TwentyOneY"
+			],
+			[
+				"Twent",
+				"TwentyY"
+			],
+			[
+				"Sixtee",
+				"SixteenY"
+			],
+			[
+				"Fourt",
+				"FourteenY"
+			],
+			[
+				"Thirt",
+				"ThirteenY"
+			],
+			[
+				"Twe",
+				"TwelveY"
+			],
+			[
+				"Four",
+				"Fourteen"
+			],
+			[
+				"Fou",
+				"Fourteen"
+			],
+			[
+				"Elev",
+				"ElevenU"
+			],
+			[
+				"Six",
+				"SixteenG"
+			],
+			[
+				"Thir",
+				"ThirteenG"
+			],
+			[
+				"F",
+				"FourteenMenu"
+			],
+			[
+				"Twen",
+				"TwentyW"
+			],
+			[
+				"Ele",
+				"ElevenWY"
+			],
+			[
+				"Ten",
+				"TenWY"
+			],
+			[
+				"Nine",
+				"NineWY"
+			],
+			[
+				"php",
+				"php"
+			],
+			[
+				"title",
+				"titlelink"
+			],
+			[
+				"large",
+				"largeNum"
+			],
+			[
+				"carousel",
+				"carousel-controls"
+			],
+			[
+				"demograp",
+				"demographicsSection"
+			],
+			[
+				"articf",
+				"articleFeed3Wide"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"hea",
+				"header	Tag"
+			],
+			[
+				"n",
+				"nav	Tag"
+			],
+			[
+				"sp",
+				"sponsored300"
+			],
+			[
+				"li",
+				"link	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2107,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/main.js",
+			"settings":
+			{
+				"buffer_size": 3271,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"pacl",
+				"Package Control: Install Package"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"",
+				"Bracket Highlighter: Match Brackets"
+			]
+		],
+		"width": 514.0
+	},
+	"console":
+	{
+		"height": 118.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/wamp/www/HotPopFactoryV7/src/sass/style.scss",
+		"/C/wamp/www/HotPopFactoryV7/src/sass/components/_content-block.scss",
+		"/C/wamp/www/HotPopFactoryV7/src/sass/components/_footer.scss",
+		"/C/wamp/www/HotPopFactoryV7/src/sass/components/_hamburger.scss",
+		"/C/wamp/www/HotPopFactoryV7/www/careers/index.html",
+		"/C/wamp/www/HotPopFactoryV7/src/sass/core/_main.scss",
+		"/C/wamp/www/HotPopFactoryV7/src/sass/core/_mediaqueries.scss",
+		"/C/wamp/www/HotPopFactoryV7/src/sass/components/_hero.scss",
+		"/C/wamp/www/HotPopFactoryV7/src/sass/_main.scss",
+		"/C/wamp/www/HotPopFactoryV7/src/sass/sections/_careers.scss",
+		"/C/wamp/www/HotPopFactoryV7/www/workshops/index.html",
+		"/C/wamp/www/HotPopFactoryV7/src/sass/components/_header.scss",
+		"/C/wamp/www/HotPopFactoryV7/src/sass/_careers.scss",
+		"/C/wamp/www/HotPopFactoryV7/src/sass/core/_typography.scss",
+		"/C/wamp/www/sass-framework/sass-framework/css/base/_helper.scss",
+		"/C/Users/Mike K/AppData/Roaming/FileZilla/sitemanager.xml",
+		"/C/wamp/www/extreme/wp-content/themes/mineral/style.css",
+		"/C/wamp/www/extreme/wp-content/themes/mineral/style.less",
+		"/C/wamp/www/meshsquared/css/base/_helper.scss",
+		"/C/wamp/www/meshsquared/css/sections/_about.scss",
+		"/C/wamp/www/meshsquared/css/components/_header.scss",
+		"/C/wamp/www/meshsquared/css/components/_navButton.scss",
+		"/C/wamp/www/meshsquared/js/main.js",
+		"/C/wamp/www/meshsquared/css/components/_structure.scss",
+		"/C/wamp/www/meshsquared/css/base/_typography.scss",
+		"/C/wamp/www/meshsquared/css/style.scss",
+		"/C/wamp/www/meshsquared/css/components/_footer.scss",
+		"/C/wamp/www/meshsquared/css/sections/_intro.scss",
+		"/C/wamp/www/meshsquared/css/sections/_events.scss",
+		"/C/wamp/www/meshsquared/css/sections/_founder.scss",
+		"/C/wamp/www/meshsquared/css/components/_social.scss",
+		"/C/wamp/www/meshsquared/css/base/_brand.scss",
+		"/C/wamp/www/meshsquared/css/base/_mediaqueries.scss",
+		"/C/wamp/www/meshsquared/css/sections/_contact.scss",
+		"/C/wamp/www/meshsquared/Gruntfile.js",
+		"/C/wamp/www/meshsquared/css/style.css",
+		"/C/wamp/www/meshsquared/sass/_reset.scss",
+		"/C/wamp/www/meshsquared/index.html",
+		"/C/wamp/www/meshsquared/sass/_brand.scss",
+		"/C/wamp/www/meshsquared/sass/style.scss",
+		"/C/wamp/www/meshsquared/package.json",
+		"/C/Users/Mike K/AppData/Roaming/Sublime Text 2/Packages/Alignment/Default (Windows).sublime-keymap",
+		"/C/wamp/www/michaelkretz.com/work.html",
+		"/C/wamp/www/michaelkretz.com/stylesheets/main.css",
+		"/C/wamp/www/michaelkretz.com/stylesheets/screen.css",
+		"/C/wamp/www/michaelkretz.com/design.html",
+		"/C/Users/Mike K/Desktop/Swiss/Swiss/css/theme/components/_feedback.scss",
+		"/C/Users/Mike K/Desktop/Swiss/Swiss/index.html",
+		"/C/Users/Mike K/Desktop/Swiss/Swiss/css/theme/_brand.scss",
+		"/C/Users/Mike K/Desktop/Swiss/Swiss/css/theme/_footer.scss",
+		"/C/Users/Mike K/Downloads/Message/Message/Message.SME",
+		"/C/wamp/www/swiss/index.html",
+		"/C/wamp/www/swiss/css/theme/_typography.scss",
+		"/C/wamp/www/swiss/css/theme/components/_carriers.scss",
+		"/C/wamp/www/swiss/css/theme/_icons.scss",
+		"/C/Users/Mike K/Desktop/extreme-F6S/style.css",
+		"/C/Users/Mike K/Desktop/extreme-F6S/index.html",
+		"/C/Users/Mike K/Desktop/extreme-F6S.html",
+		"/C/Users/Mike K/Desktop/mine/~Personal Brand/~misc/sublime-settings/Preferences.sublime-settings",
+		"/C/Users/Mike K/AppData/Roaming/Sublime Text 2/Packages/Emmet/Emmet.sublime-settings",
+		"/C/wamp/www/extreme/wp-content/themes/mineral/header.php",
+		"/C/Users/Mike K/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Mike K/Downloads/themeforest-5221751-mineral-responsive-multipurpose-wordpress-theme/mineral/mineral/functions/html-builders.php",
+		"/C/wamp/www/extreme/wp-content/themes/mineral/functions/html-builders.php",
+		"/C/wamp/www/extreme/wp-content/themes/twentythirteen/image.php",
+		"/C/wamp/www/extreme/wp-content/themes/twentythirteen/functions.php",
+		"/C/Users/Mike K/Desktop/httpd.conf",
+		"/C/Users/Mike K/Desktop/config.inc.php",
+		"/C/Users/Mike K/Desktop/phpMyAdmin.conf",
+		"/C/Users/Mike K/Desktop/wp-config.php",
+		"/C/Users/Mike K/Desktop/.htaccess",
+		"/C/Users/Mike K/Desktop/test.php",
+		"/C/Users/Mike K/Downloads/doctee-keypair.pem",
+		"/C/wamp/www/HotPopFactorySite/style01.css",
+		"/C/wamp/www/michaelkretz.com/sftp-config.json",
+		"/C/wamp/www/michaelkretz.com/index.html",
+		"/C/wamp/www/michaelkretz.com/ftpsync.settings",
+		"/C/wamp/www/michaelkretz.com/web.html",
+		"/C/wamp/www/extreme/wp-content/themes/twentytwelve/page.php",
+		"/C/wamp/www/extreme/wp-content/themes/twentytwelve/_vars.scss",
+		"/C/wamp/www/extreme/wp-content/themes/twentytwelve/inuit.css/objects/_nav.scss",
+		"/C/wamp/www/extreme/wp-content/themes/twentytwelve/inuit.css/base/_main.scss",
+		"/C/wamp/www/extreme/wp-content/themes/twentytwelve/header.php",
+		"/C/wamp/www/extreme/wp-content/themes/twentytwelve/index.php",
+		"/C/wamp/www/extreme/wp-content/themes/twentytwelve/content-none.php",
+		"/C/wamp/www/extreme/wp-content/themes/twentytwelve/content-page.php",
+		"/C/wamp/www/extreme/wp-includes/theme.php",
+		"/C/wamp/www/extreme/wp-content/themes/twentytwelve/single.php",
+		"/C/wamp/www/extreme/wp-includes/general-template.php",
+		"/C/wamp/www/extreme/wp-includes/class-wp-theme.php",
+		"/C/wamp/www/HotPopWorkshopSite/style01.css",
+		"/C/wamp/www/HotPopWorkshopSite/workshops/index.html",
+		"/C/wamp/www/extreme/index.html",
+		"/C/wamp/www/extreme/wp-config.php",
+		"/C/wamp/www/hotpopfactory/HotPopWorkshopSite/workshops/index.html",
+		"/C/wamp/www/hotpopfactory/HotPopWorkshopSite/style01.css",
+		"/C/wamp/www/hotpopfactory/HotPopWorkshopSite/workshops/style01.css",
+		"/C/Users/Mike K/Desktop/index.html",
+		"/C/wamp/www/testing/testing.sublime-project",
+		"/C/wamp/www/michaelkretz.com/css/stylesheet.less",
+		"/C/wamp/www/hotpopfactory/product_boreal-necklace01-S002.html",
+		"/C/wamp/www/hotpopfactory/style01.css",
+		"/C/wamp/www/hotpopfactory/index.html",
+		"/C/wamp/www/DevProjects/sftp-config.json",
+		"/C/Users/Mike K/Downloads/main.css",
+		"/C/wamp/www/DevProjects/SASStest/sass/screen.scss",
+		"/C/wamp/www/DevProjects/SASStest/index.html",
+		"/C/wamp/www/testing/sftp-config.json",
+		"/C/wamp/www/testing/css/stylesheet.less",
+		"/C/wamp/www/testing/index.html",
+		"/C/wamp/www/instagram-masonry/InstaPix/ftpsync.settings",
+		"/C/wamp/www/testing/ftpsync.settings",
+		"/C/wamp/www/TrendHunter/Responsive Design/frontpage-new.html",
+		"/C/wamp/www/testing/test.html",
+		"/C/wamp/www/TrendHunter/Responsive Design/trends-photos-ajax-responsive.php",
+		"/C/wamp/www/TrendHunter/Responsive Design/trends-responsive.php",
+		"/C/wamp/www/TrendHunter/Responsive Design/css-master-responsive.css",
+		"/C/wamp/www/instagram-masonry/InstaPix/js/jquery.instagram.js",
+		"/C/wamp/www/instagram-masonry/InstaPix/css/stylesheet.css",
+		"/C/wamp/www/instagram-masonry/InstaPix/store_data.php",
+		"/C/wamp/www/instagram-masonry/InstaPix/index.html",
+		"/C/wamp/www/testing/web.html",
+		"/C/wamp/www/testing/design.html",
+		"/C/Users/Mike K/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/wamp/www/testing/robots.txt",
+		"/C/wamp/www/instagram-masonry/InstaPix/robots.txt",
+		"/C/Users/Mike K/Desktop/mine/Blade of Eternity/Development/globals.php",
+		"/C/Users/Mike K/Desktop/mine/Blade of Eternity/Development/class/class_db_mysql.php"
+	],
+	"find":
+	{
+		"height": 52.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"C:\\wamp\\www\\extreme\\wp-content\\themes\\twentythirteen",
+			"C:\\wamp\\www\\extreme\\wp-content\\themes\\mineral",
+			"C:\\wamp\\www\\extreme",
+			"C:\\wamp\\www\\extreme\\wp-content",
+			"C:\\wamp\\www\\extreme\\wp-content\\themes\\mineral",
+			"C:\\wamp\\www\\extreme",
+			"C:\\wamp\\www\\extreme\\wp-content",
+			"C:\\wamp\\www\\extreme\\wp-content\\themes\\twentytwelve",
+			"C:\\wamp\\www\\extreme",
+			"C:\\wamp\\www\\extreme\\wp-content\\themes\\twentytwelve\\inuit.css",
+			"C:\\wamp\\www\\extreme\\wp-content\\themes\\twentytwelve",
+			"C:\\wamp\\www\\extreme\\wp-includes",
+			"C:\\wamp\\www\\extreme\\wp-content",
+			"C:\\wamp\\www\\extreme\\wp-content\\themes\\twentytwelve",
+			"C:\\wamp\\www\\extreme\\wp-includes",
+			"C:\\wamp\\www\\extreme\\wp-content",
+			"C:\\wamp\\www\\extreme",
+			"C:\\wamp\\www\\extreme\\wp-content\\themes\\twentytwelve",
+			"C:\\wamp\\www\\extreme",
+			"C:\\wamp\\www\\extreme\\wp-content\\themes\\twentytwelve",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\">",
+			"h3",
+			"color",
+			"title",
+			"fff",
+			"white",
+			"black",
+			"primary-text-color",
+			"class=\"event-link\"",
+			"class=\"event-list\"",
+			"15",
+			"0.3",
+			"0.2",
+			"0.4",
+			" 6px",
+			"6px",
+			"white",
+			"    $",
+			"cons",
+			"&.visible .container:after {",
+			"class=\"event-link\"",
+			"<h3>",
+			".png",
+			"div",
+			"64x64",
+			"h3",
+			"-fast",
+			"footer",
+			"<li>",
+			"li",
+			"</h1>",
+			"Nascent",
+			"alt",
+			"Developer",
+			":",
+			"color",
+			":",
+			".borderBottom",
+			"@",
+			"Web",
+			"web",
+			"brand-title",
+			"Wow! m",
+			"em>",
+			"wow!",
+			"deals",
+			"><span>",
+			"apply-wrapper",
+			"#menu",
+			".menu",
+			"button",
+			"#3399cc",
+			"button",
+			"style=\"background-color: #3399cc;\"",
+			"cols-2",
+			"col-3",
+			"col",
+			"col-2",
+			".button",
+			"100% !important",
+			".col",
+			"section-over",
+			"user-info",
+			"marcus",
+			"http://www.extremestartups.com",
+			"text-shadow",
+			"cs-title",
+			"content-slider",
+			"rp-post-date",
+			"get_the_au",
+			"get_the_date",
+			"get_the_d",
+			"get_the)d",
+			"get_the_author",
+			"get_the_date",
+			"rp-post-date",
+			"program-slider",
+			"about-block",
+			"165",
+			"208",
+			"175",
+			".cols-3 .col:first-child {",
+			"lead-block",
+			"min.map",
+			"jquery.js",
+			"jquery",
+			"full-bg-image",
+			".services-circle",
+			"sc-wraper",
+			":hover",
+			"services-box",
+			"filter",
+			"http://192.237.166.139",
+			"pierre",
+			"pierrer",
+			"ash",
+			"ash-",
+			"<div class=\"mentor\">",
+			"mentor-name",
+			"http://192.237.166.139",
+			"http://www.extremestartups.com/site",
+			"Ben Baldwin",
+			"Tomi Poutanen",
+			"mentor-about",
+			" class=\"mentor-about\"",
+			"Albert Lai",
+			"sub-t",
+			"partner",
+			"content-slider",
+			"300",
+			"235",
+			"<div class=\"user-info\">",
+			"<div class=\"user-pic\">",
+			"class=\"img-frame\"",
+			"frame \"",
+			"sidebar-width",
+			"frame \"",
+			"a href=\"\" alt=\"\"",
+			"<a href=\"\" alt=\"\" ></a>",
+			"<div class=\"cohort-block\">",
+			"@font-size",
+			"body {",
+			"program",
+			"test",
+			"h4",
+			"<p style=\"text-align: center;\">",
+			"program-bl",
+			"content-container"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 2107,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1882,
+								1882
+							],
+							[
+								1905,
+								1905
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 306.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/main.js",
+					"settings":
+					{
+						"buffer_size": 3271,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								937,
+								937
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 306.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 268.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"icons",
+				"swiss/css/theme/_icons.scss"
+			],
+			[
+				"carrier",
+				"swiss/css/theme/components/_carriers.scss"
+			],
+			[
+				"typ",
+				"swiss/css/theme/_typography.scss"
+			],
+			[
+				"",
+				"untitled"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 233.0,
+	"status_bar_visible": true
+}

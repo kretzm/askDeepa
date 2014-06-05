@@ -43,19 +43,43 @@ header, section, footer {
     margin-top: 200px;
 }
 .response {
-    float: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
     width: 100%;
     text-align: center;
+    background: url(/images/deepa-bg-1.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
 
     h1 {
         color: $white;
-        z-index: 15;
+        font-weight: 700;
+        
     }
 }
 .response-content {
     position: absolute;
     z-index: 40;
     width: 100%;
+}
+.modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 
@@ -66,7 +90,6 @@ header, section, footer {
 .try-again {
     float: left;
     width: 100%;
-    margin-top: 200px;
     text-align: center;
     z-index: 15;
 
@@ -82,25 +105,130 @@ header, section, footer {
     }
 }
 
+.deepa-figure {
+    position: relative;
+    width: 220px;
+    text-align: center;
+    margin: 60px auto 100px;
+    height: 300px;
 
-
-
-
-.fadeIn {
-    -webkit-animation-name: fadeIn;
-    -moz-animation-name: fadeIn;
-    -o-animation-name: fadeIn;
-    animation-name: fadeIn;
+    .deepa-face, .deepa-body {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .deepa-body {
+        img {
+            max-width: 90%;
+            margin-top: 10px;
+        }
+    }
+    .deepa-face {
+        z-index: 2;
+        @extend .jiggle;
+    }
 }
-.animated-slow {
-    -webkit-animation-duration: 3s;
-    -moz-animation-duration: 3s;
-    -o-animation-duration: 3s;
-    animation-duration: 3s;
-    -webkit-animation-fill-mode: both;
-    -moz-animation-fill-mode: both;
-    -o-animation-fill-mode: both;
-    animation-fill-mode: both;
+
+
+.hint {
+    float: left;
+    width: 100%;
+    margin-top: 200px;
+    color: #333;
+    text-align: center;
+
+    a {
+        color: inherit;
+        text-decoration: none;
+        padding-bottom: 10px;
+
+        &:hover {
+            border-bottom: 2px solid #333;
+        }
+    }
+    .hint-content {
+        display: none;
+        margin-top: 40px;
+        color: #444;
+
+        li {
+            margin-bottom: 5px;
+        }
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//---------- Animation Mixins ---------
+
+@mixin animation($animation) {
+    -webkit-animation: #{$animation};
+    -moz-animation: #{$animation};
+    -ms-animation: #{$animation};
+    animation: #{$animation};
+}
+@mixin transform($transform) {
+    -webkit-transform: $transform;
+    -moz-transform: $transform;
+    -ms-transform: $transform;
+    transform: $transform;
+}
+@mixin keyframes($name) {
+    @-webkit-keyframes #{$name} {
+        @content; 
+    }
+    @-moz-keyframes #{$name} {
+        @content;
+    }
+    @-ms-keyframes #{$name} {
+        @content;
+    }
+    @keyframes #{$name} {
+        @content;
+    } 
+}
+
+
+//---------- Jiggle animation ---------
+
+@include keyframes(jiggle) {
+    25% {
+        @include transform(rotate(-5deg));
+    }
+    75% {
+        @include transform(rotate(5deg));
+    }
+}
+
+.jiggle {
+    @include animation(jiggle 0.4s infinite);
+}
+
+
+
+
+
 
 
