@@ -19,11 +19,13 @@ scotchApp.controller('mainController', function($scope) {
     // define model properties
     $scope.hintVisible = false;
     $scope.randBackground = randBackground();
+    $scope.randImage = randImage();
 
     // send in the input to the user to see if it matches
     $scope.custom = function(output) {
         $scope.output = deepaAnswer(output);
         $scope.randBackground = randBackground();
+        $scope.randImage = randImage();
     };
     $scope.toggleHint = function()
     {
@@ -49,12 +51,20 @@ function deepaAnswer(input) {
         'quotes': {
             'home': 'Are you kidding me?',
             'bathroom': 'Fine.',
-            'have to': 'Child, stop your complaining. Yes.',
+            'have to': 'Child, stop your complaining.',
             'problem': 'Do I really have to deal with this?',
             'issue': "Talk to Ed.",
             'vacation': "GET OUTTA HERE!",
-            'bug': "What is wrong with you.",
-            'mike': "Mike is the coolest person in the world!"
+            'bug': "What is wrong with you!?",
+            'good': "Heyyy... look at you!",
+            'mike': "Mike is the coolest person in the world!",
+            'misa': "Misa, whatever you're doing, I forbid you from doing it",
+            'jackman': "Hugh Jackman is a beautiful man",
+            'ali': "You are an interesting man Ali",
+            'try': "I believe in you. Just do it.",
+            "can't": "For the love of God...",
+            "hate": "I hate you",
+            "eat": "I'm down as long as it's vegetarian"
         }       
     };
 
@@ -72,10 +82,13 @@ function deepaAnswer(input) {
           else 
           {
             if(randDefault == 1) {
-              response = "No. Just No.";
+              response = "I hate you.";
             }
             else if(randDefault == 2) {
-              response = "Yes. Seriously, Just Yes";
+              response = "Yes. Seriously, Just Yes.";
+            }
+            else if(randDefault == 3) {
+              response = "Let me think about it."
             }
             else {
               response = "Go away. Stop bugging me.";
@@ -92,25 +105,13 @@ function deepaAnswer(input) {
 
 
 
-$(document).ready(function() {
-
-  //show hint text
-  //$(".ng-scope").on("click", ".hint-text", function() {
-  //  $(".hint-content").fadeIn(600);
-  //});
-
-  randBackground();
-});
-
-
 function randBackground() {
   var rand = Math.floor((Math.random() * 4) + 1);
-
-  //randomize the background
-  //console.log($(".modal").length);
-  //$(".response").css("background", "url(/images/deepa-bg-" + rand + ".jpg");
-  console.log(rand);
-
   return "/images/deepa-bg-" + rand + ".jpg";
+}
+
+function randImage() {
+  var rand = Math.floor((Math.random() * 3) + 1);
+  return rand;
 }
 

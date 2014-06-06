@@ -12,7 +12,6 @@
  * Because browsers have defaults and they suck, so let's bring it all back to 0
  * Eric Meyers Reset + some box-sizing magic
  */
-/* line 26, base/_reset.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -31,50 +30,35 @@ time, mark, audio, video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline;
-}
+  vertical-align: baseline; }
 
 /* HTML5 display-role reset for older browsers */
-/* line 36, base/_reset.scss */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-  display: block;
-}
+  display: block; }
 
-/* line 39, base/_reset.scss */
 body {
-  line-height: 1;
-}
+  line-height: 1; }
 
-/* line 42, base/_reset.scss */
 ol, ul {
-  list-style: none;
-}
+  list-style: none; }
 
-/* line 45, base/_reset.scss */
 blockquote, q {
-  quotes: none;
-}
+  quotes: none; }
 
-/* line 49, base/_reset.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
-  content: none;
-}
+  content: none; }
 
-/* line 53, base/_reset.scss */
 table {
   border-collapse: collapse;
-  border-spacing: 0;
-}
+  border-spacing: 0; }
 
-/* line 59, base/_reset.scss */
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 /*------------------------------------*\
     Brand styles
@@ -103,39 +87,26 @@ table {
  * Headers
  * Set rem font size + px fallback
  */
-/* line 20, base/_typography.scss */
 body {
   font-family: "lato", helvetica, arial, sans-serif;
-  font-weight: 300;
-}
+  font-weight: 300; }
 
-/* line 31, base/_typography.scss */
 h1 {
   font-size: 60px;
-  margin-bottom: 20px;
-}
-@media only screen and (max-width: 689px) {
-  /* line 31, base/_typography.scss */
-  h1 {
-    font-size: 48px;
-  }
-}
+  margin-bottom: 20px; }
+  @media only screen and (max-width: 689px) {
+    h1 {
+      font-size: 48px; } }
 
-/* line 39, base/_typography.scss */
 h2 {
-  font-size: 30px;
-}
+  font-size: 30px; }
 
-/* line 42, base/_typography.scss */
 h3 {
   font-size: 21px;
-  margin-bottom: 10px;
-}
+  margin-bottom: 10px; }
 
-/* line 46, base/_typography.scss */
 h4 {
-  font-size: 18px;
-}
+  font-size: 18px; }
 
 /*------------------------------------*\
     Helper Classes/Mixins
@@ -148,58 +119,40 @@ h4 {
  * Positioning/Alignment/Visibility
  * Transitions
  */
-/* line 33, base/_helper.scss */
 .border-radius {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
-  border-radius: 3px;
-}
+  border-radius: 3px; }
 
-/* line 62, base/_helper.scss */
 .centered {
-  text-align: center;
-}
+  text-align: center; }
 
-/* line 65, base/_helper.scss */
 .upper {
-  text-transform: uppercase;
-}
+  text-transform: uppercase; }
 
-/* line 68, base/_helper.scss */
 .pull-right {
-  float: right;
-}
+  float: right; }
 
-/* line 71, base/_helper.scss */
 .hidden {
   display: none;
-  opacity: 0;
-}
+  opacity: 0; }
 
-/* line 75, base/_helper.scss */
 .visible {
   display: block;
-  opacity: 1;
-}
+  opacity: 1; }
 
-/* line 79, base/_helper.scss */
 .word-wrap {
   white-space: pre-wrap;
   white-space: -moz-pre-wrap;
   white-space: -pre-wrap;
   white-space: -o-pre-wrap;
-  word-wrap: break-word;
-}
+  word-wrap: break-word; }
 
-/* line 86, base/_helper.scss */
 .no-wrap {
-  white-space: nowrap;
-}
+  white-space: nowrap; }
 
-/* line 106, base/_helper.scss */
 .transition, header, section, footer {
-  transition: all .3s;
-}
+  transition: all .3s; }
 
 /*------------------------------------*\
     Input Elements
@@ -207,50 +160,34 @@ h4 {
 /*
  * Styling for all the different input types and elements
  */
-/* line 12, components/_inputs.scss */
 ::-webkit-input-placeholder {
-  color: #555;
-}
+  color: #555; }
 
-/* line 15, components/_inputs.scss */
 :-moz-placeholder {
   /* Firefox 18- */
-  color: #555;
-}
+  color: #555; }
 
-/* line 18, components/_inputs.scss */
 ::-moz-placeholder {
   /* Firefox 19+ */
-  color: #555;
-}
+  color: #555; }
 
-/* line 21, components/_inputs.scss */
 :-ms-input-placeholder {
-  color: #555;
-}
+  color: #555; }
 
-/* line 27, components/_inputs.scss */
 input:focus,
 select:focus,
 textarea:focus,
 button:focus {
-  outline: none;
-}
+  outline: none; }
 
-/* line 31, components/_inputs.scss */
 .input {
   float: left;
-  width: 100%;
-}
-@media only screen and (max-width: 689px) {
-  /* line 36, components/_inputs.scss */
-  .input input, .input .AD-button {
-    width: 100%;
-    margin-bottom: 15px;
-  }
-}
+  width: 100%; }
+  @media only screen and (max-width: 689px) {
+    .input input, .input .AD-button {
+      width: 100%;
+      margin-bottom: 15px; } }
 
-/* line 45, components/_inputs.scss */
 input {
   float: left;
   border: 2px solid #333;
@@ -262,10 +199,8 @@ input {
   height: 60px;
   line-height: 60px;
   width: calc(100% - 200px);
-  margin-right: 20px;
-}
+  margin-right: 20px; }
 
-/* line 63, components/_inputs.scss */
 .AD-button {
   float: left;
   width: 140px;
@@ -276,27 +211,25 @@ input {
   border-radius: 5px;
   background: #17b784;
   font-size: 18px;
-  text-decoration: none;
-}
+  text-decoration: none; }
 
-/* line 1, components/_gradientBG.scss */
+.button-white {
+  background: white;
+  color: #666; }
+
 body {
   background-color: #0e0438;
   padding: 0px;
-  margin: 0px;
-}
+  margin: 0px; }
 
-/* line 7, components/_gradientBG.scss */
 #gradient {
   position: absolute;
   width: 100%;
   height: 100%;
   padding: 0px;
   margin: 0px;
-  z-index: 10;
-}
+  z-index: 10; }
 
-/* line 16, components/_gradientBG.scss */
 #gradient2 {
   position: absolute;
   width: 100%;
@@ -304,8 +237,7 @@ body {
   padding: 0px;
   margin: 0px;
   z-index: 3;
-  background-image: -webkit-radial-gradient(80% 10%, circle, #1bba87, transparent), -webkit-radial-gradient(80% 50%, circle, #3aa4b2, transparent), -webkit-radial-gradient(20% 80%, 40em 40em, #0e0438, transparent), -webkit-radial-gradient(10% 10%, circle, #44f2d7, transparent);
-}
+  background-image: -webkit-radial-gradient(80% 10%, circle, #1bba87, transparent), -webkit-radial-gradient(80% 50%, circle, #3aa4b2, transparent), -webkit-radial-gradient(20% 80%, 40em 40em, #0e0438, transparent), -webkit-radial-gradient(10% 10%, circle, #44f2d7, transparent); }
 
 /*------------------------------------*\
     Structure
@@ -316,45 +248,46 @@ body {
  * Structural HTML Tags
  * Structure Classes
  */
-/* line 19, layout/_structure.scss */
 body {
   background: #222;
-  color: white;
-}
+  color: white; }
 
-/* line 23, layout/_structure.scss */
 header, section, footer {
   float: left;
-  width: 100%;
-}
+  width: 100%; }
 
-/* line 36, layout/_structure.scss */
+footer {
+  margin: 150px 0 15px;
+  color: #444;
+  text-align: center; }
+  footer a {
+    padding-bottom: 2px;
+    border-bottom: 2px solid #444; }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+
 .container {
   max-width: 1000px;
   padding: 0 20px;
   margin: 0 auto;
-  z-index: 40;
-}
+  z-index: 40; }
 
-/* line 42, layout/_structure.scss */
 .content {
-  margin-top: 200px;
-}
-@media only screen and (max-width: 689px) {
-  /* line 42, layout/_structure.scss */
-  .content {
-    margin-top: 80px;
-  }
-}
+  margin-top: 160px; }
+  @media only screen and (max-width: 689px) {
+    .content {
+      margin-top: 60px; } }
 
-/* line 49, layout/_structure.scss */
 .response {
   position: absolute;
   top: 0;
   left: 0;
+  min-height: 780px;
   height: 100%;
   width: 100%;
-  overflow: hidden;
+  padding-bottom: 50px;
   text-align: center;
   background-image: url(/images/deepa-bg-1.jpg);
   background-repeat: no-repeat;
@@ -363,22 +296,24 @@ header, section, footer {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
-}
-/* line 68, layout/_structure.scss */
-.response h1 {
-  color: white;
-  font-weight: 700;
-}
+  background-size: cover; }
+  .response h1 {
+    color: white;
+    font-weight: 500; }
+  .response .content {
+    margin-top: 120px; }
+  @media only screen and (max-width: 689px) {
+    .response h1 {
+      font-size: 34px; }
+    .response .content {
+      margin-top: 60px; } }
 
-/* line 73, layout/_structure.scss */
 .response-content {
   position: absolute;
   z-index: 40;
-  width: 100%;
-}
+  float: left;
+  width: 100%; }
 
-/* line 78, layout/_structure.scss */
 .modal {
   position: absolute;
   top: 0;
@@ -391,187 +326,136 @@ header, section, footer {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-attachment: fixed;
-}
+  background-attachment: fixed; }
 
-/* line 98, layout/_structure.scss */
 .try-again {
   float: left;
   width: 100%;
   text-align: center;
   z-index: 15;
-}
-/* line 104, layout/_structure.scss */
-.try-again a {
-  color: #FFF;
-  text-decoration: none;
-  padding-bottom: 5px;
-  opacity: 0.3;
-}
-/* line 110, layout/_structure.scss */
-.try-again a:hover {
-  border-bottom: 2px solid #FFF;
-}
+  padding-bottom: 40px; }
+  .try-again a {
+    float: none;
+    padding: 15px 30px; }
 
-/* line 116, layout/_structure.scss */
 .deepa-figure {
   position: relative;
   width: 220px;
   text-align: center;
-  margin: 60px auto 100px;
-  height: 300px;
-}
-/* line 123, layout/_structure.scss */
-.deepa-figure .deepa-face, .deepa-figure .deepa-body {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-/* line 129, layout/_structure.scss */
-.deepa-figure .deepa-body img {
-  max-width: 90%;
-  margin-top: 10px;
-}
-/* line 134, layout/_structure.scss */
-.deepa-figure .deepa-face {
-  z-index: 2;
-}
+  margin: 60px auto 60px;
+  height: 300px; }
+  .deepa-figure .deepa-face, .deepa-figure .deepa-body {
+    position: absolute;
+    top: 0;
+    left: 0; }
+  .deepa-figure .deepa-body img {
+    max-width: 88%;
+    margin-top: 10px; }
+  .deepa-figure .deepa-face {
+    z-index: 2; }
+  @media only screen and (max-width: 689px) {
+    .deepa-figure {
+      height: 240px;
+      margin-bottom: 60px; }
+      .deepa-figure .deepa-body img {
+        max-width: 72%; }
+      .deepa-figure .deepa-face img {
+        max-width: 85%; } }
 
-/* line 141, layout/_structure.scss */
 .description {
   float: left;
   width: 100%;
-  margin: 150px 0 50px;
-}
-/* line 146, layout/_structure.scss */
-.description p {
-  width: 60%;
-  margin: 0 auto;
-  font-size: 24px;
-  line-height: 1.3em;
-  font-weight: 200;
-  color: #fff;
-  text-align: center;
-}
-@media only screen and (max-width: 689px) {
-  /* line 141, layout/_structure.scss */
-  .description {
-    margin: 100px 0 40px;
-  }
-  /* line 159, layout/_structure.scss */
+  margin: 150px 0 50px; }
   .description p {
-    width: 100%;
-    font-size: 20px;
-  }
-}
+    width: 60%;
+    margin: 0 auto;
+    font-size: 24px;
+    line-height: 1.3em;
+    font-weight: 200;
+    color: #fff;
+    text-align: center; }
+  @media only screen and (max-width: 689px) {
+    .description {
+      margin: 70px 0 20px; }
+      .description p {
+        width: 100%;
+        font-size: 18px; } }
 
-/* line 165, layout/_structure.scss */
 .hint {
   float: left;
   width: 100%;
   margin-bottom: 70px;
   color: #444;
-  text-align: center;
-}
-/* line 172, layout/_structure.scss */
-.hint a {
-  color: inherit;
-  text-decoration: none;
-  padding-bottom: 5px;
-}
-/* line 177, layout/_structure.scss */
-.hint a:hover {
-  border-bottom: 2px solid #444;
-}
-/* line 181, layout/_structure.scss */
-.hint .hint-content {
-  margin-top: 20px;
-  color: #444;
-}
-/* line 185, layout/_structure.scss */
-.hint .hint-content li {
-  margin-bottom: 5px;
-}
+  text-align: center; }
+  .hint a {
+    color: inherit;
+    text-decoration: none;
+    padding-bottom: 5px; }
+    .hint a:hover {
+      border-bottom: 2px solid #444; }
+  .hint .hint-content {
+    margin-top: 20px;
+    color: #444; }
+    .hint .hint-content li {
+      margin-bottom: 5px; }
 
 @-webkit-keyframes jiggle {
-  /* line 248, layout/_structure.scss */
   25% {
     -webkit-transform: rotate(-5deg);
     -moz-transform: rotate(-5deg);
     -ms-transform: rotate(-5deg);
-    transform: rotate(-5deg);
-  }
+    transform: rotate(-5deg); }
 
-  /* line 251, layout/_structure.scss */
   75% {
     -webkit-transform: rotate(5deg);
     -moz-transform: rotate(5deg);
     -ms-transform: rotate(5deg);
-    transform: rotate(5deg);
-  }
-}
+    transform: rotate(5deg); } }
 
 @-moz-keyframes jiggle {
-  /* line 248, layout/_structure.scss */
   25% {
     -webkit-transform: rotate(-5deg);
     -moz-transform: rotate(-5deg);
     -ms-transform: rotate(-5deg);
-    transform: rotate(-5deg);
-  }
+    transform: rotate(-5deg); }
 
-  /* line 251, layout/_structure.scss */
   75% {
     -webkit-transform: rotate(5deg);
     -moz-transform: rotate(5deg);
     -ms-transform: rotate(5deg);
-    transform: rotate(5deg);
-  }
-}
+    transform: rotate(5deg); } }
 
 @-ms-keyframes jiggle {
-  /* line 248, layout/_structure.scss */
   25% {
     -webkit-transform: rotate(-5deg);
     -moz-transform: rotate(-5deg);
     -ms-transform: rotate(-5deg);
-    transform: rotate(-5deg);
-  }
+    transform: rotate(-5deg); }
 
-  /* line 251, layout/_structure.scss */
   75% {
     -webkit-transform: rotate(5deg);
     -moz-transform: rotate(5deg);
     -ms-transform: rotate(5deg);
-    transform: rotate(5deg);
-  }
-}
+    transform: rotate(5deg); } }
 
 @keyframes jiggle {
-  /* line 248, layout/_structure.scss */
   25% {
     -webkit-transform: rotate(-5deg);
     -moz-transform: rotate(-5deg);
     -ms-transform: rotate(-5deg);
-    transform: rotate(-5deg);
-  }
+    transform: rotate(-5deg); }
 
-  /* line 251, layout/_structure.scss */
   75% {
     -webkit-transform: rotate(5deg);
     -moz-transform: rotate(5deg);
     -ms-transform: rotate(5deg);
-    transform: rotate(5deg);
-  }
-}
+    transform: rotate(5deg); } }
 
-/* line 256, layout/_structure.scss */
 .jiggle, .deepa-figure .deepa-face {
   -webkit-animation: jiggle 0.4s infinite;
   -moz-animation: jiggle 0.4s infinite;
   -ms-animation: jiggle 0.4s infinite;
-  animation: jiggle 0.4s infinite;
-}
+  animation: jiggle 0.4s infinite; }
 
 /*------------------------------------*\
     Header
@@ -579,12 +463,10 @@ header, section, footer {
 /*
  * Head and shoulders, knees and toes, knees and toes, knees and toes
  */
-/* line 11, sections/_header.scss */
 header {
   height: 60px;
   background: white;
-  border-bottom: 1px solid #333333;
-}
+  border-bottom: 1px solid #333333; }
 
 /*------------------------------------*\
     Footer

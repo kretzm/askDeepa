@@ -29,7 +29,7 @@
                     <a class="AD-button" href="" ng-click="custom(customInput)">Ask Away</a>
                 </div>
                 <div class="description">
-                    <p>Our beloved Director of Operations, Deepa, is leaving on maternity leave. In her absence, you can address all your questions to her here</p>
+                    <p>Our beloved Director of Operations, Deepa, is leaving on maternity leave. In her absence, you can address all your questions to her here. Her responses are accurate.</p>
                 </div>
                 <div class="hint">
                     <a class="hint-text" href="" ng-click="toggleHint()">Need a hint?</a>
@@ -42,6 +42,14 @@
                         <li>"issue"</li>
                         <li>"vacation"</li>
                         <li>"bug"</li>
+                        <li>"try"</li>
+                        <li>"good"</li>
+                        <li>"can't"</li>
+                        <li>"hate"</li>
+                        <li>"eat"</li>
+                        <li>"Hugh Jackman"</li>
+                        <li>"Ali"</li>
+                        <li>"Misa"</li>
                         <li>"Mike"</li>
                     </ul>
                 </div>              
@@ -56,16 +64,20 @@
                     <h1>{{ output }}</h1>              
 
                     <div class="deepa-figure">
-                        <div class="deepa-face"><img src="/images/deepa-face-1.png"></div>
-                        <div class="deepa-body"><img src="/images/deepa-1.png"></div>
+                        <div class="deepa-face"><img src="/images/deepa-face-{{randImage}}.png"></div>
+                        <div class="deepa-body"><img src="/images/deepa-{{randImage}}.png"></div>
                     </div>
                 </div>
                 <div class="try-again">
-                    <a href="" ng-click="reset()">Another Question?</a> 
+                    <a class="AD-button button-white" href="" ng-click="reset()">Another Question?</a> 
                 </div>                   
             </div> 
         </div>
     </div>
+
+    <footer>
+        <p>A <a href="michaelkretz.com">Michael Kretz</a> productions</p>
+    </footer>
   
 </body>
 </html>

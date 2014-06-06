@@ -25,9 +25,21 @@ header, section, footer {
     float: left;
     width: 100%;
 }
+footer {
+    margin: 150px 0 15px;
+    color: #444;
+    text-align: center;
 
+    a {
+        padding-bottom: 2px;
+        border-bottom: 2px solid #444;
+    }
+}
 
-
+a {
+    color: inherit;
+    text-decoration: none;
+}
 
 
 //---------- Structure Classes ---------
@@ -40,19 +52,20 @@ header, section, footer {
     z-index: 40;
 }
 .content {
-    margin-top: 200px;
+    margin-top: 160px;
 
     @include media-query(mobile) {
-        margin-top: 80px;
+        margin-top: 60px;
     }
 }
 .response {
     position: absolute;
     top: 0;
     left: 0;
+    min-height: 780px;
     height: 100%;
     width: 100%;
-    overflow: hidden;
+    padding-bottom: 50px;
     text-align: center;
     background-image: url(/images/deepa-bg-1.jpg);
     background-repeat:no-repeat;
@@ -67,12 +80,26 @@ header, section, footer {
 
     h1 {
         color: $white;
-        font-weight: 700;        
+        font-weight: 500;        
+    }
+    .content {
+        margin-top: 120px;
+    }
+
+    @include media-query(mobile) {
+
+        h1 {
+            font-size: 34px;
+        }
+        .content {
+            margin-top: 60px;
+        }
     }
 }
 .response-content {
     position: absolute;
     z-index: 40;
+    float: left;
     width: 100%;
 }
 .modal {
@@ -100,16 +127,11 @@ header, section, footer {
     width: 100%;
     text-align: center;
     z-index: 15;
+    padding-bottom: 40px;
 
     a {
-        color: #FFF;
-        text-decoration: none;
-        padding-bottom: 5px;
-        opacity: 0.3;
-
-        &:hover {
-            border-bottom: 2px solid #FFF;
-        }
+        float: none;
+        padding: 15px 30px; 
     }
 }
 
@@ -117,7 +139,7 @@ header, section, footer {
     position: relative;
     width: 220px;
     text-align: center;
-    margin: 60px auto 100px;
+    margin: 60px auto 60px;
     height: 300px;
 
     .deepa-face, .deepa-body {
@@ -127,13 +149,29 @@ header, section, footer {
     }
     .deepa-body {
         img {
-            max-width: 90%;
+            max-width: 88%;
             margin-top: 10px;
         }
     }
     .deepa-face {
         z-index: 2;
         @extend .jiggle;
+    }
+
+    @include media-query(mobile) {
+        height: 240px;
+        margin-bottom: 60px;
+
+        .deepa-body {
+            img {
+                max-width: 72%;
+            }
+        }
+        .deepa-face {
+            img {
+                max-width: 85%;
+            }
+        }
     }
 }
 
@@ -154,11 +192,11 @@ header, section, footer {
     }
 
     @include media-query(mobile) {
-        margin: 100px 0 40px;
+        margin: 70px 0 20px;
 
         p {
             width: 100%;
-            font-size: 20px;
+            font-size: 18px;
         }
     }
 }
