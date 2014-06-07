@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="As a question to our beloved co-worked, Deepa.">
+    <meta name="description" content="Ask a question to our favourite Director of Delivery, Deepa">
     <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
     <title>AskDeepa</title>
 
@@ -25,11 +25,14 @@
             <div class="content">
                 <h1><span class="no-wrap">Ask Deepa.</span> <span class="no-wrap">She knows all.</span></h1>
                 <div class="input">
-                    <input ng-model="customInput" placeholder='ex. "Can I go home now?" or "Do I really have to?"'/>
-                    <a class="AD-button" href="" ng-click="custom(customInput)">Ask Away</a>
+                    <form ng-submit="custom(customInput)">
+                        <input ng-model="customInput" placeholder='ex. "Can I go home now?" or "Do I really have to?"'/>
+                        <input type="submit" value="Ask Away" class="AD-button">
+                    </form>
+                    <!--<a class="AD-button" href="">Ask Away</a>-->
                 </div>
                 <div class="description">
-                    <p>Our beloved Director of Operations, Deepa, is leaving on maternity leave. In her absence, you can address all your questions to her here. Her responses are accurate.</p>
+                    <p>Our beloved Director of Delivery, Deepa, is leaving on maternity leave. In her absence, you can address all your questions to her here. Her responses are accurate.</p>
                 </div>
                 <div class="hint">
                     <a class="hint-text" href="" ng-click="toggleHint()">Need a hint?</a>
@@ -76,7 +79,7 @@
     </div>
 
     <footer>
-        <p>A <a href="michaelkretz.com">Michael Kretz</a> productions</p>
+        <p>A <a href="http://michaelkretz.com">Michael Kretz</a> productions</p>
     </footer>
   
 </body>

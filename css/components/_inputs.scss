@@ -64,13 +64,15 @@ input {
     float: left;
     width: 140px;
     height: 60px;
-    line-height: 60px;
+    line-height: 1.5em;
     text-align: center;
     color: $white;
     border-radius: 5px;
+    border: 0;
     background: #17b784;
     font-size: 18px;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .button-white {
